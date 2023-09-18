@@ -1,0 +1,216 @@
+.header{
+    display: flex;
+    overflow: hidden;
+    background: #013369;
+
+}
+.header span, .header a, .header i{
+    color: #CBE5FF;
+
+}
+.headerLeft{
+    padding-right: 30%;
+    margin: auto;
+}
+.headerRight{
+    /* float: right; */
+    margin: auto;
+    padding: auto;
+}
+.header{
+    display: flex;
+    align-items:center;
+    text-align: center;
+}
+
+.screen1{
+height: 730px;
+}
+.sc1-box{
+    display: flex;
+    height: 80%;
+}
+.sc1-box1{
+    /* border: 1px solid black; */
+    width: 49%;
+    position: relative;
+    top: 50%;
+}
+.sc1-box2{
+    border: 1px solid red;
+    width: 49%;
+    position:relative;
+    top: 20%;
+}
+.navbar{
+    margin-left: 50%;
+}
+.navbar a{
+    margin: 1%;
+    padding: auto;
+}
+
+
+.screen2{
+
+}
+.topbar{
+    background: #E8F0F8;
+    color:#00509E;
+    padding: 0% 10%;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.topbar b{
+    margin: auto;
+    padding: auto;
+}
+.screen2 .heading{
+    display:block;
+    text-align: center;
+}
+
+.aged-care-box{
+    display: flex;
+    flex-direction: row;
+    padding: auto;
+    margin: auto;
+    justify-content: center;
+}
+.sc2-box1{
+    width: 40%;
+    padding: 2%;
+}
+.sc2-box2{
+    width: 40%;
+}
+/* -----------Screen 3------ */
+.screen3 .heading{
+    display: block;
+    text-align: center;
+}
+.portfolio-heading{
+    display: flex;
+    flex-direction: row;
+}
+
+/*-------- Screen 4 -------*/
+.screen4{
+    width: 90%;
+    margin: 5% auto;
+}
+.featured-product{
+    width: 40%;
+    text-align: start;
+}
+
+.featured-product-data b{
+    width: 60%;
+    
+}
+.featured-product-data p{
+    width: 90%;
+}
+
+.catalogues{
+    display: flex;
+    flex-direction: row;
+}
+.catalogues div{
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+}
+.catalogues .cat1-data, .catalogues .cat2-data, .catalogues .cat3-data{
+    display: flex;
+    flex-direction: column;
+}
+.find-section{
+    align-items: center;
+    margin: auto;
+    text-align:end;
+}
+.find-box{
+    text-align: start;;
+    width: 60%;
+    /* text-align: start; */
+}
+
+/* -------Screen 5--------- */
+.screen5{
+    width: 90%;
+    margin: auto;
+}
+
+.webinar-data{
+    width: 60%;
+}
+
+.news{
+
+    display: flex;
+}
+/*------- Screen 7 -------*/
+.screen7 {
+    height: 783px;
+    top: 5253px;
+    background: #F0F6FB;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.footer b{
+    color: #01438A;
+
+}
+.contact-us{
+    display: flex;
+    flex-direction: column;
+}
+.contact-icon{
+    display: flex;
+    flex-direction: row;
+}
+.contact-icon i{
+    color: #006FDE;
+}
+.address-section {
+    height: 182px;
+    top: 369px;
+    display: flex;
+    justify-content: center;
+    background: #ffff;
+}
+
+.address-section p {
+    font-family: Inter;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.address-section i,
+.address-section b {
+    color: #006FDE;
+}
+
+.brief-text {
+    background: #E8F0F8;
+    height: 142px;
+    top: 551px;
+    text-align: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.brief-text p {
+    width: 1230px;
+}
